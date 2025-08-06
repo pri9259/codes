@@ -1,0 +1,25 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+//odd
+/*
+class Main {
+    public static void main(String[] args) {
+        int i = 1;
+        for (i=1;i<=10;i++){
+        System.out.println(i);
+        i++;
+        }
+    }
+}
+*/
+
+//even
+class Main {
+    public static void main(String[] args) {
+        int i = 1;
+        for (i=0;i<=10;i++){
+        System.out.println(i);
+        i++;
+        }
+    }
+}
