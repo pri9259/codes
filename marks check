@@ -1,0 +1,63 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+import java.util.Scanner;
+class Switch_case{
+    public static void main(String[] args) {
+        Scanner scan=new Scanner(System.in);
+        System.out.println("name;");
+       String name1= scan.nextLine();
+        System.out.println("department;");
+       String dept=scan.nextLine();
+        int a=scan.nextInt();
+        System.out.println("tamil;");
+        int b=scan.nextInt();
+        System.out.println("english");
+        int c=scan.nextInt();
+        System.out.println("maths");
+        int d= scan.nextInt();
+        System.out.println("science");
+         int e= scan.nextInt();
+        System.out.println("social");
+        int tot=a+b+c+d+e;
+        System.out.println("total mark:"+tot);
+        int ave=tot/500;
+        System.out.println("Average mark:"+ave);
+        char v=scan.next().charAt(0);
+        
+        
+        
+        if(ave<8){
+            v='a';
+        }
+        if(ave<7){
+            v='b';
+        }
+        if(ave<6){
+            v='c';
+        }
+        if(ave<5){
+            v='d';
+        }
+        
+        switch(v)
+        {
+            
+            case'a':
+            System.out.println("destination");
+            break;
+            case'b':
+            System.out.println("first class");
+            break;
+             case'c':
+            System.out.println("second class");
+            break;
+            case'd':
+            System.out.println("third class");
+            break;
+            
+            default:
+            System.out.println("*******************");
+            break;
+            
+        }
+    }
