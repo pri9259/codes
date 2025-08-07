@@ -1,0 +1,15 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class Main {
+    public static void main(String[] args) {
+        int num = 67;
+        String binary =" ";
+        while(num>0)
+        {
+            binary = (num % 2)+binary;
+            num = num/2;
+        }
+        System.out.println("binary"+ binary);
+    }
+}
