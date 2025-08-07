@@ -1,0 +1,32 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+import java.util.Scanner;
+class Switch_case{
+    public static void main(String[] args) {
+        Scanner scan=new Scanner(System.in);
+        System.out.println("enter first name;");
+        String name1= scan.nextLine();
+        System.out.println("1st person department;");
+        String dept1=scan.nextLine();
+        System.out.println("enter second name;");
+        String name2= scan.nextLine();
+        System.out.println("2nd person department;");
+        String dept2=scan.nextLine();
+        System.out.println("1,2,3");
+        int c= scan.nextInt();
+        switch(c){
+            case'+':
+            System.out.println(name1);
+            System.out.println(dept1);
+            break;
+            case'-':
+            System.out.println(name2);
+            System.out.println(dept2);
+            break;
+            default:
+            System.out.println("enter the available cases");
+            break;
+            
+        }
+    }
+}
