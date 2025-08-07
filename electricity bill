@@ -1,0 +1,26 @@
+import java.util.Scanner;
+class switch_case {
+    public static void main(String[]args)
+    {
+    Scanner scan=new Scanner(System.in);
+    System.out.println("enter the current units");
+    int a=scan.nextInt();
+    int b=a/100;
+    
+    switch(b){
+        case 1:
+        System.out.println("units*1");
+        break;
+        case 2:
+        System.out.println("units*2");
+        break;
+        case 3:
+         System.out.println("units*3");
+        break;
+        default:
+         System.out.println("limit crossed");
+        
+    }
+    }
+}
+    
