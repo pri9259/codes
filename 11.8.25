@@ -1,0 +1,22 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+import java.util.Scanner;
+public class Sample1 {
+    int a =6;
+    String b ="hiii";
+    char c='s';
+    double d=60.6430;
+    
+    public static void area(Sample1 s) {
+        Scanner scan = new Scanner(System.in);
+       int a1=scan.nextInt();
+       if(s.a==a1){
+           System.out.println(s.a);
+       }
+    }
+public static void main(String[]args) {
+    Sample1 s=new Sample1();
+    int a = 45;
+    area(s);
+}
+}
