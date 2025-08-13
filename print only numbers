@@ -1,0 +1,17 @@
+/ Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+public class sample {
+    public static void main(String[] args) {
+        String input="priya278246";
+        String result="";
+        
+        
+        for(char c:input.toCharArray()){
+            if((c>='0'&&c<='9')){
+                result+=c;
+            }
+        }
+        System.out.println(result);
+    }
+}
