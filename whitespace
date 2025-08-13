@@ -1,0 +1,16 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+public class sample {
+    public static void main(String[] args) {
+        String a="priya shalini";
+     String b="";
+     for(int i=0;i<a.length();i++){
+         char d=a.charAt(i);
+         if(!Character.isWhitespace(d)){
+           b=b+d;
+     }
+        System.out.println(b);
+    }
+}
+}
