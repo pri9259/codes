@@ -1,0 +1,22 @@
+mport java.util.Scanner;
+public class sample{
+    public static void main(String[] args){
+        Scanner scan=new Scanner(System.in);
+        System.out.println("ENTER A STRING:");
+        String input=scan.nextLine();
+        String vowels=" ";
+        String consonents=" ";
+        input=input.toLowerCase();
+        for(char ch:input.toCharArray()){
+            if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'){
+               vowels=vowels+ch ;
+            }
+            else
+            {
+             consonents=consonents+ch;
+        }
+        }
+        System.out.println("vowels:"+vowels);
+        System.out.println("constant:"+consonents);
+    }
+}
