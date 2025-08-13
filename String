@@ -1,0 +1,13 @@
+public class sample{  
+public static void main(String[] args){   
+StringBuffer sb=new StringBuffer("hello"); 
+sb.append("world");       
+System.out.println("after append:"+sb);//helloworld     
+sb.insert(5,", beautiful");        
+System.out.println("after append:"+sb);//hello, beautifulworld       
+sb.replace(7,15,"amazing");      
+System.out.println("after replace:"+sb);//hello, amazinglworld        
+sb.delete(5,13);        
+System.out.println("after delete:"+sb);//helloglworld     
+sb.reverse();       
+System.out.println("after reverse:"+sb);//dlrowlgolleh    } }
