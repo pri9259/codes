@@ -1,0 +1,23 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+public class sample54 {
+    Sample54(String.b){
+    String a=b;
+    System.out.println(a);
+}
+{
+    System.out.println("hi");
+}
+
+{
+    System.out.println("hello");
+}
+    public static void main(String[] args) {
+        NewClass n=new NewClass();
+        Sample54 n=new Sample54("NOT SUPPORT");
+        System.out.println(n.a);
+          System.out.println(n.b);
+    
+    }
+}
