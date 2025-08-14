@@ -1,0 +1,19 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+public class Main {
+    void main(){
+         System.out.println("hello");
+    }
+    class Main2 extends main1{
+        System.out.println("hiiii");
+        
+    }
+    public class SingleInheritance{
+        public static void main(String[]args) {
+            main2 a=new main2();
+            a.main1();
+            a.main2();
+        }
+    }
+}
